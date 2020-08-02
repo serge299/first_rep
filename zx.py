@@ -51,3 +51,7 @@ if h<17:
     temp="Добрый день"
 if h<22:
     temp="Добрый вечер"
+
+print(h)
+print('Сегодня',week,msk_time.strftime('%d'),month ,msk_time.strftime('%Y'),'года')
+print('Время',msk_time.strftime('%H:%M'))
